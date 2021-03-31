@@ -26,6 +26,6 @@ event zeek_done()
 	{
 		if (|myTable[srcIP]| >= 3)
         	print fmt("%s is a proxy", srcIP);
-    }
+        }
         
 	}
